@@ -1,95 +1,122 @@
 # Scikit-Learn and Pandas Learning Repository
 
-This repository contains educational materials and practice notebooks for learning data manipulation with Pandas and machine learning with Scikit-Learn.
+This repository contains beginner-friendly notebooks for practicing data manipulation with Pandas and machine learning workflows with Scikit-Learn.
 
 ## Project Structure
 
-- `pandas/pandas_beginner.ipynb`: Introduction to Pandas DataFrames and Series. Covers data loading, exploration, and selection techniques.
-- `pandas/pandas_intermediate.ipynb`: Intermediate Pandas techniques. Covers data aggregation (`groupby`, `agg`), custom functions (`lambda`, `apply`, `map`), combining DataFrames (`merge`, `join`, `concat`), categorical encoding (`get_dummies`), binning (`cut`, `qcut`), and summarizing data (`pivot_table`).
-- `pandas/pd_bg_prac1.ipynb`: Additional Pandas practice using a larger email dataset. Covers CSV loading, DataFrame inspection, column selection, and `loc`/`iloc` access.
-- `sklearn/sklearn_day1.ipynb`: Introduction to Scikit-Learn. Covers Linear Regression, Decision Trees, Train/Test splitting, and Cross-Validation.
-- `data/data_pandas_practice.csv`: Practice dataset used by the Pandas notebook.
-- `data/emails.csv`: Optional larger email dataset expected by `pandas/pd_bg_prac1.ipynb`. Add this file locally if you want to run that notebook.
-- `requirements.txt`: Python dependencies for running the notebooks.
+```text
+.
+├── data/
+│   └── data_pandas_practice.csv
+├── pandas/
+│   ├── pandas_beginner.ipynb
+│   ├── pandas_intermediate.ipynb
+│   └── pd_bg_prac1.ipynb
+├── sklearn/
+│   ├── day0_basics.ipynb
+│   └── sklearn_day1.ipynb
+├── requirements.txt
+└── README.md
+```
+
+## Notebooks
+
+### Pandas
+
+- `pandas/pandas_beginner.ipynb`: DataFrame and Series basics, CSV loading, exploration, selection, and indexing.
+- `pandas/pandas_intermediate.ipynb`: Grouping, aggregation, custom functions, joins, concatenation, encoding, binning, and pivot tables.
+- `pandas/pd_bg_prac1.ipynb`: Extra practice with a larger email dataset, including inspection, column selection, and `loc`/`iloc`.
+
+### Scikit-Learn
+
+- `sklearn/day0_basics.ipynb`: Introductory Scikit-Learn workflow covering models, train/test split, prediction, transformers, `StandardScaler`, and `OneHotEncoder`.
+- `sklearn/sklearn_day1.ipynb`: Linear Regression, Decision Tree Classification, accuracy scoring, cross-validation, stratified splitting, and data leakage prevention.
 
 ## Getting Started
 
 ### Prerequisites
 
 - Python 3.12 or another recent Python 3 version
-- JupyterLab, installed from `requirements.txt`
+- JupyterLab or another notebook environment
 
-### Installation
+### Setup
 
 1. Clone the repository:
+
    ```bash
    git clone <repository-url>
+   cd skitlearn_pandas
    ```
 
 2. Create and activate a virtual environment:
+
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. Install the required dependencies:
+   Windows PowerShell:
+
+   ```powershell
+   .\venv\Scripts\Activate.ps1
+   ```
+
+   macOS/Linux:
+
+   ```bash
+   source venv/bin/activate
+   ```
+
+3. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
-## Usage
+4. Start JupyterLab:
 
-Launch JupyterLab to explore the notebooks:
-```bash
-jupyter lab
-```
+   ```bash
+   jupyter lab
+   ```
 
-Open each notebook from its library folder.
+## Suggested Learning Order
 
-- `pandas/pandas_beginner.ipynb` reads `data/data_pandas_practice.csv` from this repository.
-- `pandas/pandas_intermediate.ipynb` uses small in-notebook data, so it does not need a separate dataset.
-- `pandas/pd_bg_prac1.ipynb` reads `data/emails.csv`. Place the email dataset there before running the notebook.
-- `sklearn/sklearn_day1.ipynb` uses small in-notebook NumPy arrays, so it does not need a separate dataset.
+1. `pandas/pandas_beginner.ipynb`
+2. `pandas/pandas_intermediate.ipynb`
+3. `pandas/pd_bg_prac1.ipynb`
+4. `sklearn/day0_basics.ipynb`
+5. `sklearn/sklearn_day1.ipynb`
 
-## Git Push Checklist
+## Data Notes
 
-Before pushing to GitHub, check what changed:
-```bash
-git status
-```
-
-Stage and commit the updated project files:
-```bash
-git add README.md requirements.txt pandas/pd_bg_prac1.ipynb pandas/pandas_intermediate.ipynb
-git commit -m "Update notebook paths and project docs"
-```
-
-Push your branch:
-```bash
-git push
-```
-
-If `data/emails.csv` is large or private, do not commit it. Keep it local and document where to download it instead.
+- `data/data_pandas_practice.csv` is included and used by the Pandas beginner notebook.
+- `pandas/pandas_intermediate.ipynb`, `sklearn/day0_basics.ipynb`, and `sklearn/sklearn_day1.ipynb` use small in-notebook examples.
+- `pandas/pd_bg_prac1.ipynb` expects a larger `data/emails.csv` file. Add it locally before running that notebook if you have the dataset.
 
 ## Topics Covered
 
 ### Pandas
-- Data loading from CSV
-- DataFrame and Series structures
-- Indexing and Slicing (`loc`, `iloc`)
-- Basic statistics and data info
-- Working with NumPy scalar values inside Pandas
-- Data Aggregation (`groupby`, `agg`)
-- Custom calculations using `lambda` functions
-- Combining DataFrames (`merge`, `join`, `concat`)
-- Applying functions (`apply`, `map`)
-- Categorical encoding (`get_dummies`)
-- Binning continuous data (`cut`, `qcut`)
-- Data summarization (`pivot_table`)
+
+- Loading CSV files
+- Exploring DataFrames and Series
+- Indexing and slicing with `loc` and `iloc`
+- Basic statistics and data inspection
+- Grouping and aggregation with `groupby` and `agg`
+- Applying functions with `lambda`, `apply`, and `map`
+- Combining DataFrames with `merge`, `join`, and `concat`
+- Encoding categories with `get_dummies`
+- Binning values with `cut` and `qcut`
+- Summarizing data with `pivot_table`
 
 ### Scikit-Learn
-- Linear Regression for continuous predictions
+
+- Train/test splitting
+- Linear Regression
 - Decision Tree Classification
-- Robust model evaluation using Cross-Validation
-- Stratified sampling techniques
-- Overfitting and Data Leakage prevention
+- Prediction workflows
+- Accuracy scoring
+- Cross-validation
+- Stratified sampling
+- Transformers with `fit`, `transform`, and `fit_transform`
+- Feature scaling with `StandardScaler`
+- Categorical encoding with `OneHotEncoder`
+- Overfitting and data leakage prevention
