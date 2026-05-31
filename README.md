@@ -32,7 +32,7 @@ Beginner-friendly notebooks for practicing data manipulation with Pandas and mac
 
 - `sklearn/day0.ipynb`: Introductory Scikit-Learn workflow covering models, train/test split, prediction, scoring, transformers, `StandardScaler`, `OneHotEncoder`, and `SimpleImputer`.
 - `sklearn/sklearn_day1.ipynb`: Linear Regression, Decision Tree Classification, accuracy scoring, cross-validation, stratified splitting, and data leakage prevention.
-- `sklearn/day1.ipynb`: Focused practice with Linear Regression predictions and Mean Absolute Error (MAE).
+- `sklearn/day1.ipynb`: Focused practice with Linear Regression predictions and regression evaluation metrics: MAE, MSE, RMSE, and R-squared.
 
 ## Getting Started
 
@@ -117,6 +117,9 @@ Beginner-friendly notebooks for practicing data manipulation with Pandas and mac
 - Decision Tree Classification
 - Prediction workflows
 - Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R-squared (`R2`) scoring
 - Accuracy scoring
 - Cross-validation
 - Stratified sampling
