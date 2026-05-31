@@ -13,7 +13,7 @@ Beginner-friendly notebooks for practicing data manipulation with Pandas and mac
 |   |-- pandas_intermediate.ipynb
 |   `-- pd_bg_prac1.ipynb
 |-- sklearn/
-|   |-- day0_basics.ipynb
+|   |-- day0.ipynb
 |   |-- day1.ipynb
 |   `-- sklearn_day1.ipynb
 |-- requirements.txt
@@ -30,7 +30,7 @@ Beginner-friendly notebooks for practicing data manipulation with Pandas and mac
 
 ### Scikit-Learn
 
-- `sklearn/day0_basics.ipynb`: Introductory Scikit-Learn workflow covering models, train/test split, prediction, transformers, `StandardScaler`, and `OneHotEncoder`.
+- `sklearn/day0.ipynb`: Introductory Scikit-Learn workflow covering models, train/test split, prediction, scoring, transformers, `StandardScaler`, `OneHotEncoder`, and `SimpleImputer`.
 - `sklearn/sklearn_day1.ipynb`: Linear Regression, Decision Tree Classification, accuracy scoring, cross-validation, stratified splitting, and data leakage prevention.
 - `sklearn/day1.ipynb`: Focused practice with Linear Regression predictions and Mean Absolute Error (MAE).
 
@@ -85,14 +85,14 @@ Beginner-friendly notebooks for practicing data manipulation with Pandas and mac
 1. `pandas/pandas_beginner.ipynb`
 2. `pandas/pandas_intermediate.ipynb`
 3. `pandas/pd_bg_prac1.ipynb`
-4. `sklearn/day0_basics.ipynb`
+4. `sklearn/day0.ipynb`
 5. `sklearn/sklearn_day1.ipynb`
 6. `sklearn/day1.ipynb`
 
 ## Data Notes
 
 - `data/data_pandas_practice.csv` is included and used by the Pandas beginner notebook.
-- `pandas/pandas_intermediate.ipynb`, `sklearn/day0_basics.ipynb`, `sklearn/sklearn_day1.ipynb`, and `sklearn/day1.ipynb` use small in-notebook examples.
+- `pandas/pandas_intermediate.ipynb`, `sklearn/day0.ipynb`, `sklearn/sklearn_day1.ipynb`, and `sklearn/day1.ipynb` use small in-notebook examples.
 - `pandas/pd_bg_prac1.ipynb` expects a larger `data/emails.csv` file. Add it locally before running that notebook if you have the dataset.
 
 ## Topics Covered
@@ -123,4 +123,5 @@ Beginner-friendly notebooks for practicing data manipulation with Pandas and mac
 - Transformers with `fit`, `transform`, and `fit_transform`
 - Feature scaling with `StandardScaler`
 - Categorical encoding with `OneHotEncoder`
+- Missing value filling with `SimpleImputer`
 - Overfitting and data leakage prevention
