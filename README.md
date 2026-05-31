@@ -1,22 +1,23 @@
 # Scikit-Learn and Pandas Learning Repository
 
-This repository contains beginner-friendly notebooks for practicing data manipulation with Pandas and machine learning workflows with Scikit-Learn.
+Beginner-friendly notebooks for practicing data manipulation with Pandas and machine learning workflows with Scikit-Learn.
 
 ## Project Structure
 
 ```text
 .
-├── data/
-│   └── data_pandas_practice.csv
-├── pandas/
-│   ├── pandas_beginner.ipynb
-│   ├── pandas_intermediate.ipynb
-│   └── pd_bg_prac1.ipynb
-├── sklearn/
-│   ├── day0_basics.ipynb
-│   └── sklearn_day1.ipynb
-├── requirements.txt
-└── README.md
+|-- data/
+|   `-- data_pandas_practice.csv
+|-- pandas/
+|   |-- pandas_beginner.ipynb
+|   |-- pandas_intermediate.ipynb
+|   `-- pd_bg_prac1.ipynb
+|-- sklearn/
+|   |-- day0_basics.ipynb
+|   |-- day1.ipynb
+|   `-- sklearn_day1.ipynb
+|-- requirements.txt
+`-- README.md
 ```
 
 ## Notebooks
@@ -31,6 +32,7 @@ This repository contains beginner-friendly notebooks for practicing data manipul
 
 - `sklearn/day0_basics.ipynb`: Introductory Scikit-Learn workflow covering models, train/test split, prediction, transformers, `StandardScaler`, and `OneHotEncoder`.
 - `sklearn/sklearn_day1.ipynb`: Linear Regression, Decision Tree Classification, accuracy scoring, cross-validation, stratified splitting, and data leakage prevention.
+- `sklearn/day1.ipynb`: Focused practice with Linear Regression predictions and Mean Absolute Error (MAE).
 
 ## Getting Started
 
@@ -85,11 +87,12 @@ This repository contains beginner-friendly notebooks for practicing data manipul
 3. `pandas/pd_bg_prac1.ipynb`
 4. `sklearn/day0_basics.ipynb`
 5. `sklearn/sklearn_day1.ipynb`
+6. `sklearn/day1.ipynb`
 
 ## Data Notes
 
 - `data/data_pandas_practice.csv` is included and used by the Pandas beginner notebook.
-- `pandas/pandas_intermediate.ipynb`, `sklearn/day0_basics.ipynb`, and `sklearn/sklearn_day1.ipynb` use small in-notebook examples.
+- `pandas/pandas_intermediate.ipynb`, `sklearn/day0_basics.ipynb`, `sklearn/sklearn_day1.ipynb`, and `sklearn/day1.ipynb` use small in-notebook examples.
 - `pandas/pd_bg_prac1.ipynb` expects a larger `data/emails.csv` file. Add it locally before running that notebook if you have the dataset.
 
 ## Topics Covered
@@ -113,6 +116,7 @@ This repository contains beginner-friendly notebooks for practicing data manipul
 - Linear Regression
 - Decision Tree Classification
 - Prediction workflows
+- Mean Absolute Error (MAE)
 - Accuracy scoring
 - Cross-validation
 - Stratified sampling
