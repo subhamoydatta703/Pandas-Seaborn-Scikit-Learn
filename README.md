@@ -15,6 +15,7 @@ Beginner-friendly notebooks for practicing data manipulation with Pandas and mac
 |-- sklearn/
 |   |-- day0.ipynb
 |   |-- day1.ipynb
+|   |-- day2.ipynb
 |   `-- sklearn_day1.ipynb
 |-- requirements.txt
 `-- README.md
@@ -33,6 +34,7 @@ Beginner-friendly notebooks for practicing data manipulation with Pandas and mac
 - `sklearn/day0.ipynb`: Introductory Scikit-Learn workflow covering models, train/test split, prediction, scoring, transformers, `StandardScaler`, `OneHotEncoder`, and `SimpleImputer`.
 - `sklearn/sklearn_day1.ipynb`: Linear Regression, Decision Tree Classification, accuracy scoring, cross-validation, stratified splitting, and data leakage prevention.
 - `sklearn/day1.ipynb`: Focused practice with Linear Regression predictions and regression evaluation metrics: MAE, MSE, RMSE, and R-squared.
+- `sklearn/day2.ipynb`: Classification labels, Logistic Regression, prediction probabilities, model scoring, and when transformers are needed for feature preparation.
 
 ## Getting Started
 
@@ -88,11 +90,12 @@ Beginner-friendly notebooks for practicing data manipulation with Pandas and mac
 4. `sklearn/day0.ipynb`
 5. `sklearn/sklearn_day1.ipynb`
 6. `sklearn/day1.ipynb`
+7. `sklearn/day2.ipynb`
 
 ## Data Notes
 
 - `data/data_pandas_practice.csv` is included and used by the Pandas beginner notebook.
-- `pandas/pandas_intermediate.ipynb`, `sklearn/day0.ipynb`, `sklearn/sklearn_day1.ipynb`, and `sklearn/day1.ipynb` use small in-notebook examples.
+- `pandas/pandas_intermediate.ipynb`, `sklearn/day0.ipynb`, `sklearn/sklearn_day1.ipynb`, `sklearn/day1.ipynb`, and `sklearn/day2.ipynb` use small in-notebook examples.
 - `pandas/pd_bg_prac1.ipynb` expects a larger `data/emails.csv` file. Add it locally before running that notebook if you have the dataset.
 
 ## Topics Covered
@@ -114,8 +117,11 @@ Beginner-friendly notebooks for practicing data manipulation with Pandas and mac
 
 - Train/test splitting
 - Linear Regression
+- Logistic Regression
 - Decision Tree Classification
+- Classification labels
 - Prediction workflows
+- Prediction probabilities
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
