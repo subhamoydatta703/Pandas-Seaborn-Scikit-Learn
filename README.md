@@ -1,6 +1,8 @@
-# Scikit-Learn and Pandas Learning Repository
+# Scikit-Learn and Pandas Practice
 
-Beginner-friendly notebooks for practicing data manipulation with Pandas and machine learning workflows with Scikit-Learn.
+Beginner-friendly Jupyter notebooks for learning Pandas data manipulation and Scikit-Learn machine learning workflows.
+
+The repository is organized as a hands-on study path: start with basic DataFrame operations, move into intermediate Pandas transformations, then practice model training, evaluation, preprocessing, and classification metrics.
 
 ## Project Structure
 
@@ -25,16 +27,16 @@ Beginner-friendly notebooks for practicing data manipulation with Pandas and mac
 
 ### Pandas
 
-- `pandas/pandas_beginner.ipynb`: DataFrame and Series basics, CSV loading, exploration, selection, and indexing.
-- `pandas/pandas_intermediate.ipynb`: Grouping, aggregation, custom functions, joins, concatenation, encoding, binning, and pivot tables.
-- `pandas/pd_bg_prac1.ipynb`: Extra practice with a larger email dataset, including inspection, column selection, and `loc`/`iloc`.
+- `pandas/pandas_beginner.ipynb`: DataFrame and Series basics, CSV loading, data inspection, column selection, and `loc`/`iloc` indexing.
+- `pandas/pandas_intermediate.ipynb`: Grouping, aggregation, custom functions, joins, concatenation, encoding, binning, pivot tables, `apply`, and `map`.
+- `pandas/pd_bg_prac1.ipynb`: Extra Pandas practice with a larger email dataset, including inspection, column selection, and row/column indexing.
 
 ### Scikit-Learn
 
-- `sklearn/day0.ipynb`: Introductory Scikit-Learn workflow covering models, train/test split, prediction, scoring, transformers, `StandardScaler`, `OneHotEncoder`, and `SimpleImputer`.
+- `sklearn/day0.ipynb`: Introductory Scikit-Learn workflow covering models, train/test splitting, prediction, scoring, transformers, `StandardScaler`, `OneHotEncoder`, and `SimpleImputer`.
 - `sklearn/sklearn_day1.ipynb`: Linear Regression, Decision Tree Classification, accuracy scoring, cross-validation, stratified splitting, and data leakage prevention.
-- `sklearn/day1.ipynb`: Focused practice with Linear Regression predictions and regression evaluation metrics: MAE, MSE, RMSE, and R-squared.
-- `sklearn/day2.ipynb`: Classification labels, Logistic Regression, prediction probabilities, accuracy, precision, and when transformers are needed for feature preparation.
+- `sklearn/day1.ipynb`: Focused Linear Regression practice with regression metrics: MAE, MSE, RMSE, and R-squared.
+- `sklearn/day2.ipynb`: Classification labels, Logistic Regression, prediction probabilities, accuracy, precision, recall, and when transformers are needed for feature preparation.
 
 ## Getting Started
 
@@ -82,6 +84,18 @@ Beginner-friendly notebooks for practicing data manipulation with Pandas and mac
    jupyter lab
    ```
 
+5. Open the notebooks in the suggested order below.
+
+## Dependencies
+
+The project dependencies are listed in `requirements.txt`:
+
+- `numpy`
+- `pandas`
+- `scikit-learn`
+- `ipykernel`
+- `jupyterlab`
+
 ## Suggested Learning Order
 
 1. `pandas/pandas_beginner.ipynb`
@@ -97,6 +111,7 @@ Beginner-friendly notebooks for practicing data manipulation with Pandas and mac
 - `data/data_pandas_practice.csv` is included and used by the Pandas beginner notebook.
 - `pandas/pandas_intermediate.ipynb`, `sklearn/day0.ipynb`, `sklearn/sklearn_day1.ipynb`, `sklearn/day1.ipynb`, and `sklearn/day2.ipynb` use small in-notebook examples.
 - `pandas/pd_bg_prac1.ipynb` expects a larger `data/emails.csv` file. Add it locally before running that notebook if you have the dataset.
+- The repository intentionally keeps large local datasets out of version control.
 
 ## Topics Covered
 
@@ -128,6 +143,7 @@ Beginner-friendly notebooks for practicing data manipulation with Pandas and mac
 - R-squared (`R2`) scoring
 - Accuracy scoring
 - Precision scoring
+- Recall scoring
 - Cross-validation
 - Stratified sampling
 - Transformers with `fit`, `transform`, and `fit_transform`
