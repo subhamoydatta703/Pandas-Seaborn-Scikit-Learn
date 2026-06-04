@@ -4,6 +4,16 @@ Beginner-friendly Jupyter notebooks for learning Pandas data manipulation and Sc
 
 The repository is organized as a hands-on study path: start with basic DataFrame operations, move into intermediate Pandas transformations, then practice model training, evaluation, preprocessing, and classification metrics.
 
+## Learning Goals
+
+By working through the notebooks, you will practice:
+
+- Reading, inspecting, filtering, and transforming tabular data with Pandas.
+- Preparing categorical, numerical, and missing-value features for machine learning.
+- Training beginner-friendly regression and classification models with Scikit-Learn.
+- Evaluating models with common regression and classification metrics.
+- Building reusable preprocessing and modeling workflows with `ColumnTransformer` and `Pipeline`.
+
 ## Project Structure
 
 ```text
@@ -84,13 +94,19 @@ The repository is organized as a hands-on study path: start with basic DataFrame
    pip install -r requirements.txt
    ```
 
-4. Start JupyterLab:
+4. Optional: register the virtual environment as a notebook kernel:
+
+   ```bash
+   python -m ipykernel install --user --name skitlearn_pandas --display-name "Python (skitlearn_pandas)"
+   ```
+
+5. Start JupyterLab:
 
    ```bash
    jupyter lab
    ```
 
-5. Open the notebooks in the suggested order below.
+6. Open the notebooks in the suggested order below.
 
 ## Dependencies
 
