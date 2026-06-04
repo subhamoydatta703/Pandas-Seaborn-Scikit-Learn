@@ -19,6 +19,7 @@ The repository is organized as a hands-on study path: start with basic DataFrame
 |   |-- day1.ipynb
 |   |-- day2.ipynb
 |   |-- day3.ipynb
+|   |-- day4.ipynb
 |   |-- project1_disease_detection_model.ipynb
 |   `-- sklearn_day1.ipynb
 |-- requirements.txt
@@ -40,6 +41,7 @@ The repository is organized as a hands-on study path: start with basic DataFrame
 - `sklearn/day1.ipynb`: Focused Linear Regression practice with regression metrics: MAE, MSE, RMSE, and R-squared.
 - `sklearn/day2.ipynb`: Classification labels, Logistic Regression, prediction probabilities, accuracy, precision, recall, and when transformers are needed for feature preparation.
 - `sklearn/day3.ipynb`: ColumnTransformer practice for applying different preprocessing steps to categorical and numerical columns with `OneHotEncoder` and `StandardScaler`.
+- `sklearn/day4.ipynb`: Pipeline practice combining `ColumnTransformer`, `OneHotEncoder`, `StandardScaler`, and `LogisticRegression` for end-to-end preprocessing, fitting, prediction, and classification metric checks.
 - `sklearn/project1_disease_detection_model.ipynb`: Beginner classification project that trains a Logistic Regression model to predict disease status from age, blood pressure, and cholesterol values, then checks accuracy, precision, recall, prediction counts, and a new-patient prediction.
 
 ## Getting Started
@@ -110,12 +112,13 @@ The project dependencies are listed in `requirements.txt`:
 6. `sklearn/day1.ipynb`
 7. `sklearn/day2.ipynb`
 8. `sklearn/day3.ipynb`
-9. `sklearn/project1_disease_detection_model.ipynb`
+9. `sklearn/day4.ipynb`
+10. `sklearn/project1_disease_detection_model.ipynb`
 
 ## Data Notes
 
 - `data/data_pandas_practice.csv` is included and used by the Pandas beginner notebook.
-- `pandas/pandas_intermediate.ipynb`, `sklearn/day0.ipynb`, `sklearn/sklearn_day1.ipynb`, `sklearn/day1.ipynb`, `sklearn/day2.ipynb`, and `sklearn/day3.ipynb` use small in-notebook examples.
+- `pandas/pandas_intermediate.ipynb`, `sklearn/day0.ipynb`, `sklearn/sklearn_day1.ipynb`, `sklearn/day1.ipynb`, `sklearn/day2.ipynb`, `sklearn/day3.ipynb`, and `sklearn/day4.ipynb` use small in-notebook examples.
 - `sklearn/project1_disease_detection_model.ipynb` uses a small in-notebook disease-status dataset for classification practice.
 - `pandas/pd_bg_prac1.ipynb` expects a larger `data/emails.csv` file. Add it locally before running that notebook if you have the dataset.
 - The repository intentionally keeps large local datasets out of version control.
@@ -145,6 +148,7 @@ The project dependencies are listed in `requirements.txt`:
 - Classification labels
 - Prediction workflows
 - Prediction probabilities
+- End-to-end pipelines with `Pipeline`
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
