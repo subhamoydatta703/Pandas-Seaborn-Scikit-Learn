@@ -51,7 +51,7 @@ By working through the notebooks, you will practice:
 - `sklearn/day1.ipynb`: Focused Linear Regression practice with regression metrics: MAE, MSE, RMSE, and R-squared.
 - `sklearn/day2.ipynb`: Classification labels, Logistic Regression, prediction probabilities, accuracy, precision, recall, and when transformers are needed for feature preparation.
 - `sklearn/day3.ipynb`: ColumnTransformer practice for applying different preprocessing steps to categorical and numerical columns with `OneHotEncoder` and `StandardScaler`.
-- `sklearn/day4.ipynb`: Pipeline practice combining `ColumnTransformer`, `OneHotEncoder`, `StandardScaler`, and `LogisticRegression` for end-to-end preprocessing, fitting, prediction, and classification metric checks.
+- `sklearn/day4.ipynb`: Pipeline practice combining `ColumnTransformer`, `OneHotEncoder`, `StandardScaler`, and `LogisticRegression`, then using `GridSearchCV` to tune model hyperparameters, inspect the best model, and make new-student predictions.
 - `sklearn/project1_disease_detection_model.ipynb`: Beginner classification project that trains a Logistic Regression model to predict disease status from age, blood pressure, and cholesterol values, then checks accuracy, precision, recall, prediction counts, and a new-patient prediction.
 
 ## Getting Started
@@ -173,6 +173,7 @@ The project dependencies are listed in `requirements.txt`:
 - Precision scoring
 - Recall scoring
 - Cross-validation
+- Hyperparameter tuning with `GridSearchCV`
 - Stratified sampling
 - Transformers with `fit`, `transform`, and `fit_transform`
 - Column-wise preprocessing with `ColumnTransformer`
