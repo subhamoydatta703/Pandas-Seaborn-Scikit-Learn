@@ -30,6 +30,7 @@ By working through the notebooks, you will practice:
 |   |-- day2.ipynb
 |   |-- day3.ipynb
 |   |-- day4.ipynb
+|   |-- day5.ipynb
 |   |-- project1_disease_detection_model.ipynb
 |   `-- sklearn_day1.ipynb
 |-- requirements.txt
@@ -52,6 +53,7 @@ By working through the notebooks, you will practice:
 - `sklearn/day2.ipynb`: Classification labels, Logistic Regression, prediction probabilities, accuracy, precision, recall, and when transformers are needed for feature preparation.
 - `sklearn/day3.ipynb`: ColumnTransformer practice for applying different preprocessing steps to categorical and numerical columns with `OneHotEncoder` and `StandardScaler`.
 - `sklearn/day4.ipynb`: Pipeline practice combining `ColumnTransformer`, `OneHotEncoder`, `StandardScaler`, and `LogisticRegression`, then using `GridSearchCV` to tune model hyperparameters, inspect the best model, and make new-student predictions.
+- `sklearn/day5.ipynb`: Decision Tree Classification practice, tuning model hyperparameters (such as `max_depth` and `min_samples_split`) using `GridSearchCV` in a complete ML workflow, and checking model evaluation metrics (accuracy, precision, recall, and F1-score).
 - `sklearn/project1_disease_detection_model.ipynb`: Beginner classification project that trains a Logistic Regression model to predict disease status from age, blood pressure, and cholesterol values, then checks accuracy, precision, recall, prediction counts, and a new-patient prediction.
 
 ## Getting Started
@@ -129,12 +131,13 @@ The project dependencies are listed in `requirements.txt`:
 7. `sklearn/day2.ipynb`
 8. `sklearn/day3.ipynb`
 9. `sklearn/day4.ipynb`
-10. `sklearn/project1_disease_detection_model.ipynb`
+10. `sklearn/day5.ipynb`
+11. `sklearn/project1_disease_detection_model.ipynb`
 
 ## Data Notes
 
 - `data/data_pandas_practice.csv` is included and used by the Pandas beginner notebook.
-- `pandas/pandas_intermediate.ipynb`, `sklearn/day0.ipynb`, `sklearn/sklearn_day1.ipynb`, `sklearn/day1.ipynb`, `sklearn/day2.ipynb`, `sklearn/day3.ipynb`, and `sklearn/day4.ipynb` use small in-notebook examples.
+- `pandas/pandas_intermediate.ipynb`, `sklearn/day0.ipynb`, `sklearn/sklearn_day1.ipynb`, `sklearn/day1.ipynb`, `sklearn/day2.ipynb`, `sklearn/day3.ipynb`, `sklearn/day4.ipynb`, and `sklearn/day5.ipynb` use small in-notebook examples.
 - `sklearn/project1_disease_detection_model.ipynb` uses a small in-notebook disease-status dataset for classification practice.
 - `pandas/pd_bg_prac1.ipynb` expects a larger `data/emails.csv` file. Add it locally before running that notebook if you have the dataset.
 - The repository intentionally keeps large local datasets out of version control.
@@ -172,6 +175,7 @@ The project dependencies are listed in `requirements.txt`:
 - Accuracy scoring
 - Precision scoring
 - Recall scoring
+- F1-score (`f1_score`)
 - Cross-validation
 - Hyperparameter tuning with `GridSearchCV`
 - Stratified sampling
