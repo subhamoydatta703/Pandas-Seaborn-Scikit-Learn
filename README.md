@@ -1,14 +1,15 @@
-# Scikit-Learn and Pandas Practice
+# Pandas, Seaborn, and Scikit-Learn Practice
 
-Beginner-friendly Jupyter notebooks for learning Pandas data manipulation and Scikit-Learn machine learning workflows.
+Beginner-friendly Jupyter notebooks for learning Pandas data manipulation, Seaborn data visualization, and Scikit-Learn machine learning workflows.
 
-The repository is organized as a hands-on study path: start with basic DataFrame operations, move into intermediate Pandas transformations, then practice model training, evaluation, preprocessing, and classification metrics.
+The repository is organized as a hands-on study path: start with basic DataFrame operations, move into intermediate Pandas transformations, practice data visualization with Seaborn, then practice model training, evaluation, preprocessing, and classification metrics.
 
 ## Learning Goals
 
 By working through the notebooks, you will practice:
 
 - Reading, inspecting, filtering, and transforming tabular data with Pandas.
+- Visualizing data distributions, category counts, and outliers with Seaborn.
 - Preparing categorical, numerical, and missing-value features for machine learning.
 - Training beginner-friendly regression and classification models with Scikit-Learn.
 - Evaluating models with common regression and classification metrics.
