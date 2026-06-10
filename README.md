@@ -49,7 +49,7 @@ By working through the notebooks, you will practice:
 
 ### Seaborn
 
-- `seaborn/day1.ipynb`: Seaborn basics, loading data, and creating distribution and count plots (`countplot`, `histplot`) using the Titanic dataset.
+- `seaborn/day1.ipynb`: Seaborn basics, loading data, creating distribution, count, and box plots (`countplot`, `histplot`, `boxplot`), adjusting bins/ticks, and analyzing outliers using the Titanic dataset.
 
 ### Scikit-Learn
 
@@ -169,6 +169,9 @@ The project dependencies are listed in `requirements.txt`:
 
 - Creating count plots with `countplot`
 - Visualizing distributions with `histplot`
+- Adjusting histogram resolution using bins and customizing axis ticks with `plt.xticks`
+- Creating box plots with `boxplot` for data spread and outlier visualization
+- Understanding outliers and implementing detection vs. handling strategies in ML workflows
 - Using `hue` to split data by categorical subgroups
 - Selecting color palettes and ordering axis categories
 
