@@ -21,12 +21,16 @@ By working through the notebooks, you will practice:
 .
 |-- data/
 |   `-- data_pandas_practice.csv
+|-- numpy/
+|   `-- numpy_revision.md
 |-- pandas/
 |   |-- pandas_beginner.ipynb
 |   |-- pandas_intermediate.ipynb
+|   |-- pandas_revision.md
 |   `-- pd_bg_prac1.ipynb
 |-- seaborn/
-|   `-- day1.ipynb
+|   |-- seaborn_fundamentals.ipynb
+|   `-- seaborn_revision.md
 |-- sklearn/
 |   |-- day0.ipynb
 |   |-- day1.ipynb
@@ -35,7 +39,8 @@ By working through the notebooks, you will practice:
 |   |-- day4.ipynb
 |   |-- day5.ipynb
 |   |-- project1_disease_detection_model.ipynb
-|   `-- sklearn_day1.ipynb
+|   |-- sklearn_day1.ipynb
+|   `-- sklearn_revision.md
 |-- requirements.txt
 `-- README.md
 ```
@@ -50,7 +55,7 @@ By working through the notebooks, you will practice:
 
 ### Seaborn
 
-- `seaborn/day1.ipynb`: Seaborn basics, loading data, creating distribution, count, and box plots (`countplot`, `histplot`, `boxplot`), adjusting bins/ticks, and analyzing outliers using the Titanic dataset.
+- `seaborn/seaborn_fundamentals.ipynb`: Seaborn basics, loading data, creating distribution, count, and box plots (`countplot`, `histplot`, `boxplot`), adjusting bins/ticks, and analyzing outliers using the Titanic dataset.
 
 ### Scikit-Learn
 
@@ -62,6 +67,15 @@ By working through the notebooks, you will practice:
 - `sklearn/day4.ipynb`: Pipeline practice combining `ColumnTransformer`, `OneHotEncoder`, `StandardScaler`, and `LogisticRegression`, then using `GridSearchCV` to tune model hyperparameters, inspect the best model, and make new-student predictions.
 - `sklearn/day5.ipynb`: Decision Tree Classification practice, tuning model hyperparameters (such as `max_depth` and `min_samples_split`) using `GridSearchCV` in a complete ML workflow, and checking model evaluation metrics (accuracy, precision, recall, and F1-score).
 - `sklearn/project1_disease_detection_model.ipynb`: Beginner classification project that trains a Logistic Regression model to predict disease status from age, blood pressure, and cholesterol values, then checks accuracy, precision, recall, prediction counts, and a new-patient prediction.
+
+## Revision Notes
+
+Detailed revision guides generated from actual implementations in the repository:
+
+- `pandas/pandas_revision.md`: Summary notes for Pandas DataFrame operations, selections, merges, encoding, binning, pivot tables, and transformations.
+- `numpy/numpy_revision.md`: Summary notes for NumPy arrays, missing data representations (`np.nan`), and math/graph tick utilities.
+- `seaborn/seaborn_revision.md`: Summary notes for count plots, distribution histograms, outlier box plots, regressions, and heatmaps.
+- `sklearn/sklearn_revision.md`: Summary notes for Scikit-Learn splitting, imputer/scaling transformations, column transformers, pipelines, baselines (Linear/Logistic Regression, Decision Trees), metrics, cross-validation, and GridSearchCV.
 
 ## Getting Started
 
@@ -133,7 +147,7 @@ The project dependencies are listed in `requirements.txt`:
 1. `pandas/pandas_beginner.ipynb`
 2. `pandas/pandas_intermediate.ipynb`
 3. `pandas/pd_bg_prac1.ipynb`
-4. `seaborn/day1.ipynb`
+4. `seaborn/seaborn_fundamentals.ipynb`
 5. `sklearn/day0.ipynb`
 6. `sklearn/sklearn_day1.ipynb`
 7. `sklearn/day1.ipynb`
