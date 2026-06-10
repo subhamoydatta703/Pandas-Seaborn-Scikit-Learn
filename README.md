@@ -24,6 +24,8 @@ By working through the notebooks, you will practice:
 |   |-- pandas_beginner.ipynb
 |   |-- pandas_intermediate.ipynb
 |   `-- pd_bg_prac1.ipynb
+|-- seaborn/
+|   `-- day1.ipynb
 |-- sklearn/
 |   |-- day0.ipynb
 |   |-- day1.ipynb
@@ -44,6 +46,10 @@ By working through the notebooks, you will practice:
 - `pandas/pandas_beginner.ipynb`: DataFrame and Series basics, CSV loading, data inspection, column selection, and `loc`/`iloc` indexing.
 - `pandas/pandas_intermediate.ipynb`: Grouping, aggregation, custom functions, joins, concatenation, encoding, binning, pivot tables, `apply`, and `map`.
 - `pandas/pd_bg_prac1.ipynb`: Extra Pandas practice with a larger email dataset, including inspection, column selection, and row/column indexing.
+
+### Seaborn
+
+- `seaborn/day1.ipynb`: Seaborn basics, loading data, and creating distribution and count plots (`countplot`, `histplot`) using the Titanic dataset.
 
 ### Scikit-Learn
 
@@ -119,20 +125,22 @@ The project dependencies are listed in `requirements.txt`:
 - `scikit-learn`
 - `ipykernel`
 - `jupyterlab`
+- `seaborn`
 
 ## Suggested Learning Order
 
 1. `pandas/pandas_beginner.ipynb`
 2. `pandas/pandas_intermediate.ipynb`
 3. `pandas/pd_bg_prac1.ipynb`
-4. `sklearn/day0.ipynb`
-5. `sklearn/sklearn_day1.ipynb`
-6. `sklearn/day1.ipynb`
-7. `sklearn/day2.ipynb`
-8. `sklearn/day3.ipynb`
-9. `sklearn/day4.ipynb`
-10. `sklearn/day5.ipynb`
-11. `sklearn/project1_disease_detection_model.ipynb`
+4. `seaborn/day1.ipynb`
+5. `sklearn/day0.ipynb`
+6. `sklearn/sklearn_day1.ipynb`
+7. `sklearn/day1.ipynb`
+8. `sklearn/day2.ipynb`
+9. `sklearn/day3.ipynb`
+10. `sklearn/day4.ipynb`
+11. `sklearn/day5.ipynb`
+12. `sklearn/project1_disease_detection_model.ipynb`
 
 ## Data Notes
 
@@ -156,6 +164,13 @@ The project dependencies are listed in `requirements.txt`:
 - Encoding categories with `get_dummies`
 - Binning values with `cut` and `qcut`
 - Summarizing data with `pivot_table`
+
+### Seaborn
+
+- Creating count plots with `countplot`
+- Visualizing distributions with `histplot`
+- Using `hue` to split data by categorical subgroups
+- Selecting color palettes and ordering axis categories
 
 ### Scikit-Learn
 
